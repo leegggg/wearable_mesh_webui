@@ -1,6 +1,6 @@
 # wearable_mesh_webui
 
-This template should help get you started developing with Vue 3 in Vite.
+A webui for wearable mesh devices. Based on vue3 and mqtt.js.
 
 ## Recommended IDE Setup
 
