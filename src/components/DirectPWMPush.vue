@@ -1,5 +1,5 @@
 <template>
-  <el-card style="max-width: 480px">
+  <el-card>
     <h3>Direct PWM Push</h3>
     <el-form label-width="auto" label-position="left">
       <el-form-item label="pin:">
@@ -22,7 +22,7 @@
 export default {
   name: "DirectPWMPush",
   data() {
-    return { form: { pin: "7", pwm: "127", topic: "" } };
+    return { form: { pin: "7", pwm: 127, topic: "" } };
   },
   methods: {
     handleSubmit() {
