@@ -115,6 +115,9 @@ const random_motor = () => {
 }
 
 const check_interval = () => {
+  if(!enabled.value){
+    form.value.power = 0;
+  }
   if(form.value.power === 0){
     form.value.power = 0;
   } else if(form.value.power > props.max_power) {
